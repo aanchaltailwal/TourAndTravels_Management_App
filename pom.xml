@@ -3,4 +3,30 @@
   <groupId>tour_management_system</groupId>
   <artifactId>tour_management_system</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
+
+  <build>
+		<finalName>tour_management_system</finalName>
+		<plugins>
+			<plugin>
+				<!-- Build an executable JAR test ABC-->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>mypkg.tour_management_system</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
