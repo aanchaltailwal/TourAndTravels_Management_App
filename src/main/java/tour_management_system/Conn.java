@@ -1,4 +1,4 @@
-package travel.management.system;
+package tour_management_system;
 
 import java.sql.*;
 
