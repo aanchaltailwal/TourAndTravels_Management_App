@@ -1,5 +1,6 @@
 Manifest-Version: 1.0
-Built-By: Shivam Kumar
-Build-Jdk: 11.0.15.1
+Built-By: upes
+Build-Jdk: 17.0.8
+Main-Class: mypkg.tour_management_system
 Created-By: Maven Integration for Eclipse
 
